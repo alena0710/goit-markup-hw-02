@@ -1,0 +1,87 @@
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navyblue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --lightslate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navybluemodal: #2e2f42;
+  --grey: #2e2f42;
+  --white: #ffffff;
+  --dairy: #fcfcfc;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--white);
+  color: var(--navybluemodal);
+}
+
+.menu-nav {
+  color: var(--navyblue);
+}
+
+.colored-section {
+  background-color: var(--navyblue);
+  width: 1440;
+  height: 600;
+}
+
+button {
+  color: var(--iris);
+  border: solid 1px;
+  font-size: 16px;
+  border-color: var(--cornflower);
+  background-color: var(--cloud);
+  border-radius: 4px;
+  padding: 12px 24px;
+  cursor: pointer;
+}
+
+.active-button {
+  background-color: #404bbf;
+  color: var(--white);
+}
+
+.team-section {
+  background-color: var(--cloud);
+}
+.mainheader {
+  color: var(--white);
+}
+
+.list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.logo-up {
+  color: var(--navyblue);
+  text-transform: uppercase;
+}
+
+.logo-down {
+  color: var(--cloud);
+  text-transform: uppercase;
+}
+
+.app-design {
+  color: var(--slate);
+}
+
+.app-name {
+  color: var(--grey);
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.footer {
+  color: var(--cloud);
+  font-size: 16px;
+  width: 264;
+}
