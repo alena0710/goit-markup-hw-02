@@ -14,19 +14,56 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: var(--white);
   color: var(--navybluemodal);
 }
 
-.menu-nav {
+/* header */
+.nav .logo {
+  color: var(--iris);
+}
+
+.logo-up {
+  color: var(--navyblue);
+  text-transform: uppercase;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.nav-link.link {
   color: var(--navyblue);
 }
 
-.colored-section {
-  background-color: var(--navyblue);
-  width: 1440;
-  height: 600;
+.address-link.link {
+  color: var(--navyblue);
+}
+
+.menu-nav {
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.address-header {
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.list .link:hover,
+.list .link:focus {
+  color: #9747ff;
+}
+
+
+/* main */
+.mainheader {
+  color: var(--white);
 }
 
 button {
@@ -41,28 +78,39 @@ button {
 }
 
 .active-button {
-  background-color: #404bbf;
+  background-color: var(--iris);
   color: var(--white);
 }
 
-.team-section {
-  background-color: var(--cloud);
-}
-.mainheader {
-  color: var(--white);
+.dark-backgrnd {
+  background-color: var(--navyblue);
+  width: 1440;
+  height: 600;
 }
 
 .list {
   list-style-type: none;
 }
 
-.link {
-  text-decoration: none;
+.team-section {
+  background-color: var(--cloud);
 }
 
-.logo-up {
-  color: var(--navyblue);
-  text-transform: uppercase;
+.functionality {
+  color: var(--slate);
+}
+
+.app-name {
+  color: var(--grey);
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+/* footer */
+.footer {
+  color: var(--cloud);
+  font-size: 16px;
+  width: 264;
 }
 
 .logo-down {
@@ -70,18 +118,6 @@ button {
   text-transform: uppercase;
 }
 
-.app-design {
-  color: var(--slate);
-}
-
-.app-name {
-  color: var(--grey);
-  font-size: 20px;
-  line-height: 24px;
-}
-
-.footer {
-  color: var(--cloud);
-  font-size: 16px;
-  width: 264;
+.dark-backgrnd .link {
+  color: var(--iris);
 }
